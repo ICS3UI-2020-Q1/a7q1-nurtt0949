@@ -28,7 +28,9 @@ public class Main {
   public static void main(String[] args) {
     //create a Scanner
     Scanner input = new Scanner(System.in);
+    //aak user for mark
     System.out.println("Enter mark");
+    //declare a variable to stor the mark
     int mark = input.nextInt();
     examGrade(mark);
 
